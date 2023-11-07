@@ -1,5 +1,5 @@
 import MovieCard from "../MovieCard/MovieCard";
-import { MovieListContainer } from "../../styles/styles";
+import { MovieListContainer } from "./style";
 
 export const MovieList = ({ movies }) => {
   return (

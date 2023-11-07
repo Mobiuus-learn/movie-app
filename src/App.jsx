@@ -5,9 +5,9 @@ import {
   AppContainer,
   Title,
   ButtonContainer,
-  Button,
   SearchInput,
 } from "./styles/styles";
+import {Button } from './/components/Button/Button'
 
 import GlobalStyle from "./assets/globalStyle";
 
@@ -88,7 +88,7 @@ function App() {
         dataLength={movies.length}
         next={fetchMovies}
         hasMore={true}
-        loader={<h4>Loading ....</h4>}
+        loader={<Title>Loading ....</Title>}
       >
         <MovieList movies={movies} />        
       </InfiniteScroll>
