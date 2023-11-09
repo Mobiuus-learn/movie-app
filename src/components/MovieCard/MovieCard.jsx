@@ -17,6 +17,7 @@ const MovieCard = ({ movie }) => {
         />
         <h3>{movie.title}</h3>
       </MovieItem>
+      
     </MovieContainer>
   );
 };

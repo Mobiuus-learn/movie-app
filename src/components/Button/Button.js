@@ -8,13 +8,13 @@ export const Button = styled.button`
   background-color: rgba(255,255,255, 0.05);
   color: #fff;
   border-radius: 6px;
-  border: 1px solid rgba(255,255,255, 0.1);
+  border: 1px solid transparent;
 
   &:hover {
     /* border-radius:5px; */
     /* transform: translateY(-2px); */
-    transition: 0.3s ease-in-out;
-    background-color:rgba(255,255,255, .2);
-    border: 1px solid rgba(255,255,255, .1);
+    /* transition: 0.3s ease-in-out; */
+    /* background-color:rgba(255,255,255, .2); */
+    border: 1px solid #7862f8;
   }
 `;
